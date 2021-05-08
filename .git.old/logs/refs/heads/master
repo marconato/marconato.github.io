@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 d687b4307862d852fe5ba8f2d2aa3c0c43c5e393 marconato <marconato10@gmail.com> 1619657506 -0300	commit (initial): initial commit
+d687b4307862d852fe5ba8f2d2aa3c0c43c5e393 f84448eb75d32ffad5a2e6d4a353bd3fab527c41 marconato <marconato10@gmail.com> 1619660194 -0300	commit: material design adicionado no projeto e criação do header
+f84448eb75d32ffad5a2e6d4a353bd3fab527c41 aad76cc483e9a5ff007b93f625896ee43096c9d9 marconato <marconato10@gmail.com> 1619660528 -0300	commit: adicionado o footer do projeto
+aad76cc483e9a5ff007b93f625896ee43096c9d9 7279b50db939f5a429f6f1f1b6ca04117f98fe9c marconato <marconato10@gmail.com> 1619661609 -0300	commit: criação do corpo da aplicação e do menu
+7279b50db939f5a429f6f1f1b6ca04117f98fe9c bed265dcb7baca2790687fedff920ab1f0d8c58d marconato <marconato10@gmail.com> 1619662409 -0300	commit: home implementado com rota
+bed265dcb7baca2790687fedff920ab1f0d8c58d e73c415b2a045645b024ed1ef66a40cffe6e1bc7 marconato <marconato10@gmail.com> 1619893032 -0300	commit: Consulta de categoria implementada
+e73c415b2a045645b024ed1ef66a40cffe6e1bc7 4afb3273f3032d5369b06dfdb95b64fb26340ac3 marconato <marconato10@gmail.com> 1619894866 -0300	commit: ajustes no compomente de consulta de categorias
+4afb3273f3032d5369b06dfdb95b64fb26340ac3 94d1f2cdba2ae3f46fbe51a60de2f802a5039c69 marconato <marconato10@gmail.com> 1619899200 -0300	commit: Finalizando o método create
+94d1f2cdba2ae3f46fbe51a60de2f802a5039c69 0f280891f9308cbb7bcd3deb37352f51d0f27630 marconato <marconato10@gmail.com> 1620090182 -0300	commit: Eliminar categoria implementado
+0f280891f9308cbb7bcd3deb37352f51d0f27630 5f0a5a340d633aed7c77927362b3df61eb929f9f marconato <marconato10@gmail.com> 1620091775 -0300	commit: Update para categoria foi implementado
+5f0a5a340d633aed7c77927362b3df61eb929f9f fce42a71b3058b5961f5a22134caf12daac7979d marconato <marconato10@gmail.com> 1620093273 -0300	commit: leitura de livros por categoria implementado
+fce42a71b3058b5961f5a22134caf12daac7979d ba014b2610516a5328b124225e2e0bea87cf17ca marconato <marconato10@gmail.com> 1620436627 -0300	commit: UPDATE para Livro implementado
+ba014b2610516a5328b124225e2e0bea87cf17ca 8f8533168144d0fca4bae060a3bb48367aee28b2 marconato <marconato10@gmail.com> 1620437684 -0300	commit: Delete para livro implementado
+8f8533168144d0fca4bae060a3bb48367aee28b2 1439bdc125e25101efd9cc7f177913b546faf461 marconato <marconato10@gmail.com> 1620439385 -0300	commit: Read para livro implementado

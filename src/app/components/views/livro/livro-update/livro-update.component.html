@@ -1,0 +1,36 @@
+<form>
+    <h1>LIVRO</h1>
+
+    <mat-form-field *ngIf="livro.id" class="form">
+        <mat-label>ID</mat-label>
+        <input matInput [(ngModel)]="livro.id" type="text" name="id" disabled>
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Título</mat-label>
+        <input matInput [formControl]="titulo" [(ngModel)]="livro.titulo" type="text" name="titulo" 
+            placeholder="Curso de Spring Boot com Angular 10" maxlength="100" required>
+        <mat-error *ngIf="titulo.invalid">O campo TÍTULO deve conter entre 3 e 100 caracteres</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Nome do autor</mat-label>
+        <input matInput [formControl]="nome_autor" [(ngModel)]="livro.nome_autor" type="text" name="nome_autor" 
+            placeholder="Rodrigo Marconato" maxlength="100" required>
+        <mat-error *ngIf="nome_autor.invalid">O campo NOME DO AUTOR deve conter entre 3 e 100 caracteres</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Texto</mat-label>
+        <textarea matInput [formControl]="texto" [(ngModel)]="livro.texto" type="text" name="texto" rows="10"
+            placeholder="Ex: Livros Computação" maxlength="2000000" required>
+        </textarea>
+        <mat-error *ngIf="texto.invalid">O campo TEXTO deve conter entre 10 e 2.000.000 caracteres</mat-error>
+    </mat-form-field>
+    
+    <div class="buttons">
+        <button [disabled]="validateForm()" class="mat-elevation-z8" mat-stroked-button color="primary" (click)="update()">SALVAR</button>
+        <button class="mat-elevation-z8" mat-stroked-button color="warn" (click)="cancel()">CANCELAR</button>
+    </div>
+
+</form>
